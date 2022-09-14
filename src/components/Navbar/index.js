@@ -43,7 +43,7 @@ const Navbar= () => {
                   <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"></img> */}
                 </div>
                 <Animation class="text-gray-300"></Animation>
-                <img class="h-11 w-8 ml-2 rounded-full" src={require('../../Assets/Images/Running.gif')} alt="Your Company"></img>
+                <img class="h-11 w-10 ml-2 rounded-full" src={require('../../Assets/Images/Running.gif')} alt="Your Company"></img>
                 {/* <div class="hidden sm:ml-6 sm:block">
                   <div class="flex space-x-4">
                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
@@ -71,8 +71,6 @@ const Navbar= () => {
                     {/* <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a> */}
         
                     <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</a>
-
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
         
                     <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
         
@@ -84,7 +82,7 @@ const Navbar= () => {
                   <div>
                     <button type="button" class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                       <span class="sr-only">Open user menu</span>
-                      <img class="h-8 w-8 rounded-full" src={require('../../Assets/Images/Kevin.JPG')} alt=""></img>
+                      <img class="h-10 w-10 rounded-full" src={require('../../Assets/Images/Kevin.JPG')} alt=""></img>
                     </button>
                   </div>
         
