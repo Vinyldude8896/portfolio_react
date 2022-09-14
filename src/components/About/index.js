@@ -18,15 +18,15 @@ const About = () => {
                   <span class="sr-only">Your Company</span>
                   <img alt="Your Company" class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"></img>
                 </a> */}
-                <div class="-mr-2 flex items-center md:hidden">
+                {/* <div class="-mr-2 flex items-center md:hidden">
                   <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
-                    {/* <!-- Heroicon name: outline/bars-3 --> */}
+                    {/* <!-- Heroicon name: outline/bars-3 --> 
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
             <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4 text-lg">
@@ -56,18 +56,18 @@ const About = () => {
         <div class="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
           <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
             <div class="flex items-center justify-between px-5 pt-4">
-              <div>
+              {/* <div>
                 <img class="h-40" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""></img>
-              </div>
-              <div class="-mr-2">
-                <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              </div> */}
+              {/* <div class="-mr-2"> */}
+                {/* <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span class="sr-only">Close main menu</span>
-                  {/* <!-- Heroicon name: outline/x-mark --> */}
+                  {/* <!-- Heroicon name: outline/x-mark --> 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                   </svg>
-                </button>
-              </div>
+                </button> */}
+              {/* </div> */}
             </div>
             {/* <div class="space-y-1 px-2 pt-2 pb-3">
         
@@ -88,8 +88,9 @@ const About = () => {
       <main class="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-            <span class="block xl:inline">Kevin Reid   </span>
-            <span class="block text-indigo-600 xl:inline">Full Stack Web Developer</span>
+            <span class="block xl:inline pr-8">Kevin Reid </span>
+            <span class="block text-indigo-600 xl:inline"> Full Stack</span><br></br>
+            <span class="block text-indigo-600 xl:inline"> Web Developer </span>
           </h1>
           <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">I find programming to be challenging, but greatly rewarding. I love the creativity of building our own front and back end apps from the ground up. I really enjoy the problem solving nature of programming, and the endless opportunities to create responsive designs that generate a great user experience. I enjoy other creative arts, music, photography and video games.</p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -106,7 +107,7 @@ const About = () => {
     </div>
   </div>
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-45 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src={require('../../Assets/Images/Kevin.JPG')} alt=""></img>
+    <img class="h-45 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src={require('../../Assets/Images/Kevin_4.JPG')} alt=""></img>
   </div>
 </div>
 )

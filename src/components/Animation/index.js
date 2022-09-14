@@ -18,7 +18,7 @@ const Animation = () => {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      style={{ fontFamily: 'URW Chancery L, cursive', fontSize: '2em', color: 'lightgrey', marginLeft: '10px'}}
+      style={{ fontFamily: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji', fontSize: '2em', color: 'lightgrey', marginLeft: '10px'}}
     />
     
   )
