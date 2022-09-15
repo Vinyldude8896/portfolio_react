@@ -16,7 +16,7 @@ This page has a contact form with regex validation for email.
 ![JavaScript](https://img.shields.io/badge/JavaScript-License-lightblue)
 ![CSS](https://img.shields.io/badge/CSS-License-lightgrey)
 ![Tailwind](https://img.shields.io/badge/Tailwind-License-yellowgreen)
-![React-type-Animation](https://img.shields.io/badge/React-Type-Animation-License-lightblue)
+![React-type-Animation](https://img.shields.io/badge/ReactTypeAnimation-License-lightblue)
 
 ## Table of Contents
 
