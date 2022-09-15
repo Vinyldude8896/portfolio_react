@@ -35,11 +35,11 @@ const Home = () => {
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
                   <span className="block xl:inline pr-8">Kevin Reid </span>{" "}
                   <br></br>
-                  <span className="block text-indigo-600 xl:inline">
+                  <span className="text-indigo-600 xl:inline">
                     {" "}
                     Full Stack
                   </span>
-                  <span className="block text-indigo-600 xl:inline">
+                  <span className="text-indigo-600 xl:inline">
                     {" "}
                     Web Developer{" "}
                   </span>
