@@ -12,3 +12,39 @@
         font-family: 'Raleway', sans-serif;
     }
 } */
+
+.block{
+  height:340px;
+  width:320px;
+  position:relative}
+.block-1{
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  border-radius:10px;
+  position:absolute;
+  z-index:100}
+  .block-1 img{
+    width:130%;
+    height:90%;
+    border-radius:10px;
+    background-position:cover;
+    transition:all 0.5s;
+    cursor:pointer;
+    object-fit:fill}
+    .block-2{width:100%;
+      height:100%;
+      background-image: linear-gradient(to right top,#22D3EE,#0EA5E9);
+      border-radius:11px;
+      position:absolute;
+      transform:rotate(0deg);
+      transition:all 0.5s}
+      .block:hover .block-2{
+        transform:rotate(-10deg)}
+        
+    .block:hover .block-3{transform:rotate(-20deg)}
+    .block:hover .block-4{transform:rotate(-30deg)}
+    .block:hover .block-5{transform:rotate(-40deg)}
+    .block-3{width:100%;height:100%;background-image: linear-gradient(to right top,#16A5BB,#2028CD);border-radius:11px;position:absolute;transform:rotate(0deg);transition:all 0.5s}
+    .block-4{width:100%;height:100%;background-image: linear-gradient(to right top,#0F6D7C,#191F9B);border-radius:11px;position:absolute;transform:rotate(0deg);transition:all 0.5s}
+    .block-5{width:100%;height:100%;background-image: linear-gradient(to right top,#09414A,#111564);border-radius:11px;position:absolute;transform:rotate(0deg);transition:all 0.5s}
