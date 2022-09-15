@@ -1,21 +1,19 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Animation from './components/Animation';
-import About from './components/About';
-import Projects from './components/Projects/Index';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
- function App() {
-  return (
-  <div>
-    <Navbar></Navbar>
-    <main>
-      <About></About>
-      <Projects></Projects>
-    </main>
-    </div>
-  )
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+
+
+// function App() {
+//   return (
+//   <div>
+//     <Navbar></Navbar>
+//     <main>
+//       <About></About>
+//       <Projects></Projects>
+//     </main>
+//     </div>
+//   )
+// }
