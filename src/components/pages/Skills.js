@@ -75,17 +75,90 @@ const Skills = () => {
           />
           <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
         </div>
-        <div>Express.js</div>
-        <div>Handlebars.js</div>
-        <div>Bootstrap</div>
-        <div>Tailwind</div>
-        <div>MongoDB</div>
-        <div>Mongoose</div>
-        <div>MySQL</div>
-        <div>Sequelize</div>
-        <div>Test Driven Devlopment</div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Express</h1>
+          <img
+           src={require("../../Assets/icons/express.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Handlebars</h1>
+          <img
+           src={require("../../Assets/icons/handlebars.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Bootstrap</h1>
+          <img
+           src={require("../../Assets/icons/bootstrap.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Tailwind</h1>
+          <img
+           src={require("../../Assets/icons/tailwind-css.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">MongoDB</h1>
+          <img
+           src={require("../../Assets/icons/mongodb.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Mongoose</h1>
+          <img
+           src={require("../../Assets/icons/Mongoose.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">IndexedDB</h1>
+          <img
+           src={require("../../Assets/icons/Indexeddb.jpeg")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">MySQL</h1>
+          <img
+           src={require("../../Assets/icons/mysql.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Sequelize</h1>
+          <img
+           src={require("../../Assets/icons/sequelize.png")}
+            className="w-20 mx-auto"
+            alt="JavaScript"
+          />
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
+        </div>
+        {/* <div>Test Driven Devlopment</div>
         <div>Model View Controller</div>
-        <div>Object Relational Mapping</div>
+        <div>Object Relational Mapping</div> */}
       </div>
     </section>
   );
