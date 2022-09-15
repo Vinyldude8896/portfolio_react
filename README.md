@@ -59,6 +59,6 @@ To test this app:<br />
     - additional instructions 
     I can be contacted by phone as well, but prefer email contact first.
 
-### Images of example readme.md
+### Images 
 
 <img src="./src/Assets/Kevins_Developer_portfolio.png" alt="Getting started">
