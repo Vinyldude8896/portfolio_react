@@ -56,8 +56,14 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </a>
 
                 <a
-                  href="#Projects"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  href="#Skills"
+                  onClick={() => handlePageChange("Skills")}
+                  // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className={
+                    currentPage === "Skills"
+                      ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  }
                 >
                   Skills
                 </a>
