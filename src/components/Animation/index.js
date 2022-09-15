@@ -12,7 +12,8 @@ const Animation = () => {
         "Kevin Reid's Developer Portfolio    ", // Types 'Three' without deleting 'Two'
         8000,
         () => {
-          console.log("Done typing!"); // Place optional callbacks anywhere in the array
+        // Place optional callbacks anywhere in the array
+        //   console.log("Done typing!"); 
         },
       ]}
       wrapper="div"
