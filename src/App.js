@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Animation from './components/Animation';
 import About from './components/About';
+import Projects from './components/Projects/Index';
 
  function App() {
   return (
@@ -11,6 +12,7 @@ import About from './components/About';
     <Navbar></Navbar>
     <main>
       <About></About>
+      <Projects></Projects>
     </main>
     </div>
   )

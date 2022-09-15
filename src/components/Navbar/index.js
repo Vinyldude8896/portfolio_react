@@ -1,11 +1,16 @@
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
-import { TypeAnimation } from 'react-type-animation';
 import Animation from "../Animation";
 
 
 
 const Navbar= () => {
+
+    // const handleClick = (item) => {
+    //     console.log(item);
+    //     return item;
+    //   };
+
+
     return (
         // <!-- This example requires Tailwind CSS v2.0+ -->
         <nav class="bg-gray-800">
@@ -70,9 +75,13 @@ const Navbar= () => {
                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                     {/* <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a> */}
         
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</a>
+                    <a href="#Projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</a>
         
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                    <a href="#Projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+
+                    <a href="#Projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+
+                    <a href="#Projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</a>
         
                     <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</a>
                   </div>
