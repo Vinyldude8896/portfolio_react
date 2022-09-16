@@ -33,14 +33,14 @@ const About = () => {
                           src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                         ></img>
                       </a> */}
-                      <div className="-mr-2 flex items-center md:hidden">
+                      {/* <div className="-mr-2 flex items-center md:hidden">
                         <button
                           type="button"
                           className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                           aria-expanded="false"
                         >
                           <span className="sr-only">Open main menu</span>
-                          {/* <!-- Heroicon name: outline/bars-3 --> */}
+                        
                           <svg
                             className="h-6 w-6"
                             xmlns="http://www.w3.org/2000/svg"
@@ -57,10 +57,10 @@ const About = () => {
                             />
                           </svg>
                         </button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
-                  <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+                  {/* <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                   <a
                       href="https://github.com/Vinyldude8896" target="_blank" 
                       className="font-medium text-indigo-600 hover:text-gray-900"
@@ -88,13 +88,13 @@ const About = () => {
                       E-mail
                     </a>
 
-                    {/* <a
+                    <a
                       href="#"
                       class="font-medium text-indigo-600 hover:text-indigo-500"
                     >
                       Log in
-                    </a> */}
-                  </div>
+                    </a>
+                  </div> */}
                 </nav>
               </div>
 
@@ -110,22 +110,22 @@ const About = () => {
         --> */}
               <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
                 <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
-                  <div className="flex items-center justify-between px-5 pt-4">
-                    <div>
+                  {/* <div className="flex items-center justify-between px-5 pt-4"> */}
+                    {/* <div>
                       <img
                         className="h-8 w-auto"
                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                         alt=""
                       ></img>
-                    </div>
-                    <div className="-mr-2">
+                    </div> */}
+                    {/* <div className="-mr-2">
                       <button
                         type="button"
                         className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                       >
-                        <span className="sr-only">Close main menu</span>
+                        <span className="sr-only">Close main menu</span> */}
                         {/* <!-- Heroicon name: outline/x-mark --> */}
-                        <svg
+                        {/* <svg
                           className="h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -141,10 +141,10 @@ const About = () => {
                           />
                         </svg>
                       </button>
-                    </div>
-                  </div>
-                  <div className="space-y-1 px-2 pt-2 pb-3">
-                    <a
+                    </div> */}
+                  {/* </div> */}
+                  {/*<div className="space-y-1 px-2 pt-2 pb-3">
+                     <a
                       href="#Github"
                       className="block rounded-md px-3 py-2 font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
@@ -167,15 +167,15 @@ const About = () => {
                       className="block rounded-md px-3 py-2  font-bold text-base font-medium text-indigo-600 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Contact Me
-                    </a>
+                    </a> 
 
-                    <a
+                     <a
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-bold font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Resume
-                    </a>
-                  </div>
+                    </a> 
+                  </div> */}
                   {/* <a
                     href="#"
                     class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"

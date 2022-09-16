@@ -10,7 +10,7 @@ const Projects = () => {
           <span className="text-indigo-600 xl:inline">Porfolio Section</span>
         </h1>
       </div>
-      <main className="w-full flex flex-wrap mt-10 max-w-10xl  sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14 z-10">
+      <main className="w-full flex flex-wrap mt-2 max-w-10xl  sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14 z-10">
         {/* <div className="w-full flex flex-wrap"> */}
         <div className=" w-full block flex flex-wrap card z-10">
           <div className="block-1 w-full text-center pr-5 md:p-2 z-10">

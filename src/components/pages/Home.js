@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
-    // <!-- This example requires Tailwind CSS v2.0+ -->
-    <section>
+    
+    <section className="mx-auto mt-10 max-w-12xl px-4 sm:mt-12 sm:px-6 md:mt-12 lg:mt-14 lg:px-8 xl:mt-1">
       <div className="relative overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
@@ -110,7 +111,7 @@ const Home = () => {
         --> */}
               <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
                 <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
-                  <div className="flex items-center justify-between px-5 pt-4">
+                   {/*<div className="flex items-center justify-between px-5 pt-4">
                     <div>
                       <img
                         className="h-8 w-auto"
@@ -123,9 +124,9 @@ const Home = () => {
                         type="button"
                         className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                       >
-                        <span className="sr-only">Close main menu</span>
+                        <span className="sr-only">Close main menu</span> */}
                         {/* <!-- Heroicon name: outline/x-mark --> */}
-                        <svg
+                        {/* <svg
                           className="h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -142,40 +143,36 @@ const Home = () => {
                         </svg>
                       </button>
                     </div>
-                  </div>
-                  <div className="space-y-1 px-2 pt-2 pb-3">
+                  </div> */}
+                  {/* <div className="space-y-1 px-2 pt-2 pb-3">
                     <a
-                      href="#Github"
+                      href="#About"
                       className="block rounded-md px-3 py-2 font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
-                    <img
-                      src={require("../../Assets/icons/github.png")}
-                      className="w-20 mx-auto"
-                      alt="JavaScript"
-                    />
+                    About Me
                     </a>
 
                     <a
-                      href="#Skills"
+                      href="#Portfolio"
                       className="block rounded-md px-3 py-2  font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
-                      Skills
+                      Portfolio
                     </a>
 
                     <a
-                      href="#"
+                      href="#Contact"
                       className="block rounded-md px-3 py-2  font-bold text-base font-medium text-indigo-600 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Contact Me
                     </a>
 
                     <a
-                      href="#"
+                      href="#Resume"
                       className="block rounded-md px-3 py-2 text-base font-bold font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Resume
                     </a>
-                  </div>
+                  </div> */}
                   {/* <a
                     href="#"
                     class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
@@ -225,6 +222,7 @@ const Home = () => {
         </div>
       </div>
     </section>
+ 
   );
 };
   
