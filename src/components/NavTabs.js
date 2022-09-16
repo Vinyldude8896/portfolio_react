@@ -40,11 +40,22 @@ function NavTabs({ currentPage, handlePageChange }) {
                       : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   }
                 >
-                  About Me
                 </a>
 
                 <a
-                  href="#projects"
+                  href="#AboutMe"
+                  onClick={() => handlePageChange("About")}
+                  // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className={
+                    currentPage === "About"
+                      ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  }
+                >
+                  About Me
+                </a>
+                <a
+                  href="#Projects"
                   onClick={() => handlePageChange("Projects")}
                   // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   className={
