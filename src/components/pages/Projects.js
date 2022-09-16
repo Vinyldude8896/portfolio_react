@@ -17,7 +17,7 @@ const Projects = () => {
             <img
               className="w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full z-10"
               src={require("../../Assets/ProjectPhotos/tech_blog.png")}
-              Title="Blog Style App with secured login"
+              title="Blog Style App with secured login"
             ></img>
             {/* <p
             className="font-medium ml-18 text-grey-600 hover:text-grey-900">
@@ -46,7 +46,7 @@ const Projects = () => {
           <div className="block-1 w-full p-1 md:p-2 z-10">
             <img
               src={require("../../Assets/ProjectPhotos/IBetter.png")}
-              Title="Habit Tracker app with chart progress"
+              title="Habit Tracker app with chart progress"
             ></img>
             <a
               href="https://github.com/Vinyldude8896/iBetter"
@@ -72,7 +72,7 @@ const Projects = () => {
           <div className="block-1 w-full p-1 md:p-2 z-10">
             <img
               src={require("../../Assets/ProjectPhotos/Artist_music_tours_1.jpeg")}
-              Title="Music Artist search returns concert listings, discography and videos"
+              title="Music Artist search returns concert listings, discography and videos"
             ></img>
             <a
               href="https://github.com/Vinyldude8896/Artist_Music_Tour"
@@ -98,7 +98,7 @@ const Projects = () => {
           <div className="block-1 w-full p-1 md:p-2 z-10">
             <img
               src={require("../../Assets/ProjectPhotos/Weather_dashboard.jpeg")}
-              Title="Weather forecast app that calls API for city searched data"
+              title="Weather forecast app that calls API for city searched data"
             ></img>
             <a
               href="https://github.com/Vinyldude8896/Weather-Dashboard"
@@ -124,7 +124,7 @@ const Projects = () => {
           <div className="block-1 w-full p-1 md:p-2 z-10">
             <img
               src={require("../../Assets/ProjectPhotos/Employee_Tracker.png")}
-              Title="Command line app to organize and maintain departments, managers and employees"
+              title="Command line app to organize and maintain departments, managers and employees"
             ></img>
             <a
               href="https://github.com/Vinyldude8896/Employee-Tracker"
@@ -150,7 +150,7 @@ const Projects = () => {
           <div className="block-1 w-full p-1 md:p-2 z-10">
             <img
               src={require("../../Assets/ProjectPhotos/Coding_quiz.png")}
-              Title="Coding quiz aqp that is timed and saves high score"
+              title="Coding quiz aqp that is timed and saves high score"
             ></img>
             <a
               href="https://github.com/Vinyldude8896/Coding-Quiz"
