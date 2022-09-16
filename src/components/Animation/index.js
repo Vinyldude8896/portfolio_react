@@ -22,9 +22,9 @@ const Animation = () => {
       style={{
         fontFamily:
           'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji',
-        fontSize: "2em",
+        fontSize: "2rem",
         color: "lightgrey",
-        marginLeft: "10px",
+        marginLeft: "2px",
       }}
     />
   );

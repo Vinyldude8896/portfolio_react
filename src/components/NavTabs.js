@@ -18,9 +18,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <span className="sr-only">Open main menu</span>
               </button>
             </div>
-            <div className="flex flex-1 items-center justify-left sm:items-stretch sm:justify-start">
+            <div className="flex flex-1 items-center justify-left sm:static sm:inset-auto sm:ml-0 sm:pr-0 sm:text-small">
               <div className="flex flex-shrink-0 items-left"></div>
-              <Animation className="text-gray-300"></Animation>
+              <Animation className="animation text-gray-300 sm:static sm:inset-auto sm:ml-0 sm:pr-0 sm:text-small"></Animation>
               <img
                 className="h-11 w-10 ml-2 rounded-full"
                 src={require("../Assets/Images/Running.gif")}
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <a
+                  {/* <a
                     href="#home"
                     onClick={() => handlePageChange("Home")}
                     // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -41,19 +41,19 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                   >
                     Home
-                  </a>
+                  </a> */}
 
                   <a
                     href="#AboutMe"
-                    onClick={() => handlePageChange("About")}
+                    onClick={() => handlePageChange("Home")}
                     // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     className={
-                      currentPage === "About"
+                      currentPage === "Home"
                         ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     }
                   >
-                    About Me
+                    About
                   </a>
                   <a
                     href="#Projects"
@@ -82,8 +82,15 @@ function NavTabs({ currentPage, handlePageChange }) {
                   </a>
 
                   <a
-                    href="#Projects"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="#Resume"
+                    // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    onClick={() => handlePageChange("Resume")}
+                    // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className={
+                      currentPage === "Resume"
+                        ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                        : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    }
                   >
                     Resume
                   </a>
@@ -98,7 +105,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                         : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     }
                   >
-                    Contact Me
+                    Contact
                   </a>
                 </div>
               </div>

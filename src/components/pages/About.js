@@ -189,7 +189,7 @@ const About = () => {
             <main className="mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-                  <span className="block xl:inline pr-8">Kevin Reid </span>{" "}
+                  <span className="xl:inline pr-8">Kevin Reid </span>{" "}
                   <br></br>
                   <span className="text-indigo-600 xl:inline"> Full Stack</span>
                   <span className="text-indigo-600 xl:inline">
