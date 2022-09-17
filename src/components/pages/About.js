@@ -67,7 +67,6 @@ const About = () => {
                     >
                       GitHub
                     </a>
-
                     <a
                       href="https://www.linkedin.com/in/kevinreidkr" target="_blank" 
                       className="font-medium text-indigo-600 hover:text-indigo-600"
@@ -80,14 +79,12 @@ const About = () => {
                     >
                       Resume
                     </a>
-
                     <a
                       href="mailto: kevinnivek@me.com"
                       className="font-medium text-indigo-600 hover:text-gray-900"
                     >
                       E-mail
                     </a>
-
                     <a
                       href="#"
                       class="font-medium text-indigo-600 hover:text-indigo-500"
@@ -100,7 +97,6 @@ const About = () => {
 
               {/* <!--
           Mobile menu, show/hide based on menu open state.
-
           Entering: "duration-150 ease-out"
             From: "opacity-0 scale-95"
             To: "opacity-100 scale-100"
@@ -154,21 +150,18 @@ const About = () => {
                       alt="JavaScript"
                     />
                     </a>
-
                     <a
                       href="#Skills"
                       className="block rounded-md px-3 py-2  font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Skills
                     </a>
-
                     <a
                       href="#"
                       className="block rounded-md px-3 py-2  font-bold text-base font-medium text-indigo-600 hover:bg-gray-50 hover:text-gray-900"
                     >
                       Contact Me
                     </a> 
-
                      <a
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-bold font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
@@ -229,3 +222,4 @@ const About = () => {
 };
 
 export default About;
+
