@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
       return <Skills />;
     }
     if (currentPage === "Resume") {
-        return <Resume />;
+        return <Resume/>;
       }
   };
 
@@ -38,6 +38,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer></Footer>
         </div>
   );
 }

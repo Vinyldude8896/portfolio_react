@@ -1,5 +1,27 @@
 import React, { useState } from "react";
-import Modal from "../Modal";
+//  
+ 
+
+// const projectArr = [
+//     {"img": "",
+//     "title": "",
+//     "github": "",
+//     "link": ""
+//     }
+// ]
+
+// const Projects  = () => {
+//  return (
+//     <section>
+//     {projectArr.map(x => {
+//     return (
+//         <Card img={x.img} title={x.title} github={x.github} link={x.link}></Card>
+//     )
+// }
+//     <Card img=""></Card>
+//  </section>
+//  )
+// }
 
 const Projects = () => {
   return (
