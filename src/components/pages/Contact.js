@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import { capitalizeFirstLetter} from "../../utils/helpers";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -22,17 +23,18 @@ const Contact = () => {
 
   const handleChange = (e) => {
     console.log("on blur initiated");
-    console.log(e.target.name, e.target.value);
+    const capitalFieldName = capitalizeFirstLetter(e.target.name);
+    console.log("capitalfelidname" + capitalFieldName);
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("Please enter a valid email address so I can get in touch with you.");
       } else {
         setErrorMessage("");
       }
     } else {
       if (!e.target.value) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(capitalFieldName + ` is currently blank. Please fill out this field.`);
       } else {
         setErrorMessage("");
       }
@@ -135,9 +137,12 @@ const Contact = () => {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
             Send Message
-          </button>
+          </button> <span>
+          <h2 className=" text-xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           {errorMessage}
-          {/* class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message */}
+        </h2>
+        </span>
+          {/* class="py-3 px-5 text-sm font-medium text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message */}
         </form>
       </div>
     </section>

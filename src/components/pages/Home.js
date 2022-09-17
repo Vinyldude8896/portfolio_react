@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Home = () => {
   return (
     // <!-- This example requires Tailwind CSS v2.0+ -->
-    <section>
+    <section className="viewHeight">
       <div className="relative overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
