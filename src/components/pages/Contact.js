@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { capitalizeFirstLetter} from "../../utils/helpers";
 
+
+// each contact will have a name email subject and message
 const Contact = () => {
   const [formState, setFormState] = useState({
     name: "",
@@ -13,6 +15,7 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const { name, email, message } = formState;
 
+  // function to handle any errors on submit
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
@@ -21,10 +24,10 @@ const Contact = () => {
     }
   };
 
+
+  // function to validate email and check for any empty feilds on blur from field
   const handleChange = (e) => {
-    console.log("on blur initiated");
     const capitalFieldName = capitalizeFirstLetter(e.target.name);
-    console.log("capitalfelidname" + capitalFieldName);
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
@@ -39,15 +42,6 @@ const Contact = () => {
         setErrorMessage("");
       }
     }
-
-    // if (e.target.name === "message") {
-    //     const isNotEmpty = (e.target.value);
-    //     if (isNotEmpty === null) {
-    //         setErrorMessage("Please provide a message.");
-    //     } else {
-    //         setErrorMessage("");
-    //     }
-    // }
   };
 
   return (
@@ -56,9 +50,6 @@ const Contact = () => {
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           Contact Me
         </h2>
-        {/* <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-          If you have need of a Web Developer please feel free to reach out.
-        </p> */}
         <form
           action="#"
           className="space-y-8"
@@ -118,7 +109,7 @@ const Contact = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              className=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               Your message
             </label>
@@ -134,11 +125,11 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "
           >
             Send Message
           </button> <span>
-          <h2 className=" text-xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <h2 className="errorMessage text-xl tracking-tight font-extrabold text-center text-gray-900 ">
           {errorMessage}
         </h2>
         </span>

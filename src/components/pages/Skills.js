@@ -1,5 +1,119 @@
 import React from "react";
+import {Skill} from "../Skill";
 
+// importing imageds for skills cards
+import imageJavaScript from "../../Assets/icons/javascript.png";
+import imageHTML from "../../Assets/icons/html5.png";
+import imageCSS from "../../Assets/icons/css3.png";
+import imageBootstrap from "../../Assets/icons/bootstrap.png";
+import imageTailwind from "../../Assets/icons/tailwind-css.png";
+import imageJquery from "../../Assets/icons/jquery.png";
+import imageNode from "../../Assets/icons/node-js.png";
+import imageReact from "../../Assets/icons/react.png";
+import imageExpress from "../../Assets/icons/express.png";
+import imageHandlebars from "../../Assets/icons/handlebars.png";
+import imageMysql from "../../Assets/icons/mysql.png";
+import imageSequelize from "../../Assets/icons/sequelize.png";
+import imageMongoDB from "../../Assets/icons/mongodb.png";
+import imageMoonse from "../../Assets/icons/Mongoose.png";
+import imageIndexedDB from "../../Assets/icons/Indexeddb.jpeg"
+
+//array for skills card items includes image name, alt text and hh1 text
+const skillsArr = [
+{
+  key: 1,
+  src: imageJavaScript,
+  alt: "JavaScript",
+  h1Text: "JavaScript",
+},
+{
+  key: 2,
+  src: imageHTML,
+  alt: "HTML",
+  h1Text: "HTML",
+},
+{
+  key: 3,
+  src: imageCSS,
+  alt: "CSS",
+  h1Text: "CSS",
+},
+{
+  key: 4,
+  src: imageBootstrap,
+  alt: "Bootstrap",
+  h1Text: "Bootstrap",
+},
+{
+  key: 5,
+  src: imageTailwind,
+  alt: "Tailwind",
+  h1Text: "Tailwind",
+},
+{
+  key: 6,
+  src: imageJquery,
+  alt: "jQuery",
+  h1Text: "jQuery",
+},
+{
+  key: 7,
+  src: imageNode,
+  alt: "Node",
+  h1Text: "Node",
+},
+{
+  key: 8,
+  src: imageReact,
+  alt: "React",
+  h1Text: "React",
+},
+{
+  key: 9,
+  src: imageExpress,
+  alt: "Express",
+  h1Text: "Express",
+},
+{
+  key: 10,
+  src: imageHandlebars,
+  alt: "Handlebars",
+  h1Text: "Handlebars",
+},
+{
+  key: 11,
+  src: imageMysql,
+  alt: "MySQL",
+  h1Text: "MySQL",
+},
+{
+  key: 12,
+  src: imageSequelize,
+  alt: "Sequelize",
+  h1Text: "Sequelize",
+},
+{
+  key: 13,
+  src: imageMongoDB,
+  alt: "MongoDB",
+  h1Text: "MongoDB",
+},
+{
+  key: 14,
+  src: imageMoonse,
+  alt: "Mongoose",
+  h1Text: "Mongoose",
+},
+{
+  key: 15,
+  src: imageIndexedDB,
+  alt: "IndexedDB",
+  h1Text: "IndexedDB",
+},
+]
+
+
+// Skills function which will create outer section and call Skill function for each skill in array
 const Skills = () => {
   return (
     <section
@@ -13,152 +127,12 @@ const Skills = () => {
         </h1>
       </div>
       <div className="w-full grid grid-cols-4 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
-        {/* <div class="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500">
-          <h1>JavaScript</h1>
-          <img
-            className="w-20 mx-auto"
-            src={require("../../Assets/icons/javascript (1).png")}
-          ></img>
-          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-70"></div>
-        </div> */}
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">JavaScript</h1>
-          <img
-           src={require("../../Assets/icons/javascript.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">HTML</h1>
-          <img
-           src={require("../../Assets/icons/html5.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">CSS</h1>
-          <img
-           src={require("../../Assets/icons/css3.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">jQuery</h1>
-          <img
-           src={require("../../Assets/icons/jquery.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Node</h1>
-          <img
-           src={require("../../Assets/icons/node-js.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">React</h1>
-          <img
-           src={require("../../Assets/icons/react.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Express</h1>
-          <img
-           src={require("../../Assets/icons/express.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Handlebars</h1>
-          <img
-           src={require("../../Assets/icons/handlebars.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Bootstrap</h1>
-          <img
-           src={require("../../Assets/icons/bootstrap.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Tailwind</h1>
-          <img
-           src={require("../../Assets/icons/tailwind-css.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">MongoDB</h1>
-          <img
-           src={require("../../Assets/icons/mongodb.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Mongoose</h1>
-          <img
-           src={require("../../Assets/icons/Mongoose.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">IndexedDB</h1>
-          <img
-           src={require("../../Assets/icons/Indexeddb.jpeg")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">MySQL</h1>
-          <img
-           src={require("../../Assets/icons/mysql.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-        <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">Sequelize</h1>
-          <img
-           src={require("../../Assets/icons/sequelize.png")}
-            className="w-20 mx-auto"
-            alt="JavaScript"
-          />
-          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-30"></div>
-        </div>
-        {/* <div>Test Driven Devlopment</div>
-        <div>Model View Controller</div>
-        <div>Object Relational Mapping</div> */}
+
+        {skillsArr.map(x => {
+          return (
+            <Skill key={x.key} src={x.src} alt={x.alt} h1Text={x.h1Text}></Skill>
+          )
+        })}
       </div>
     </section>
   );

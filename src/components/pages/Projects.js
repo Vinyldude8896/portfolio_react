@@ -10,6 +10,7 @@ import imageCodingQuiz from "../../Assets/ProjectPhotos/Coding_quiz.png"
 
 const projectArr = [
   {
+    key: 1,
     src: imageTechBlog,
     title: "Blog Style App with secured login",
     hrefOne: "GitHub",
@@ -18,6 +19,7 @@ const projectArr = [
     deployedOrLiveLink: "https://immense-cliffs-94479.herokuapp.com/",
   },
   {
+    key: 2,
     src: imageIbetter,
     title: "Habit Tracker app with chart progress",
     hrefOne: "GitHub",
@@ -26,6 +28,7 @@ const projectArr = [
     deployedOrLiveLink: "https://ibetter.herokuapp.com",
   },
   {
+    key: 3,
     src: imageArtistMusicTours,
     title: "Music Artist search returns concert listings, discography and videos",
     hrefOne: "GitHub",
@@ -34,6 +37,7 @@ const projectArr = [
     deployedOrLiveLink: "https://vinyldude8896.github.io/Artist_Music_Tour/",
   },
   {
+    key: 4,
     src: imageWeatherDashboard,
     title: "Weather forecast app that calls API for city searched data",
     hrefOne: "GitHub",
@@ -42,6 +46,7 @@ const projectArr = [
     deployedOrLiveLink: "https://vinyldude8896.github.io/Weather-Dashboard/",
   },
   {
+    key: 5,
     src: imageEmployeeTracker,
     title: "Command line app to organize and maintain departments, managers and employees",
     hrefOne: "GitHub",
@@ -50,6 +55,7 @@ const projectArr = [
     deployedOrLiveLink: "https://drive.google.com/file/d/1ziSfSc_Dury25gX0I-vqKOJPjDzP50Ao/view",
   },
   {
+    key: 6,
     src: imageCodingQuiz,
     title: "Coding quiz aqp that is timed and saves high score",
     hrefOne: "GitHub",
@@ -72,7 +78,7 @@ const Projects = () => {
     
         {projectArr.map(x =>{
        return (
-         <Card src={x.src} title={x.title} hrefOne={x.hrefOne} hrefTwo={x.hrefTwo} GithubLink={x.GithubLink} deployedOrLiveLink={x.deployedOrLiveLink}></Card>
+         <Card key={x.key} src={x.src} title={x.title} hrefOne={x.hrefOne} hrefTwo={x.hrefTwo} GithubLink={x.GithubLink} deployedOrLiveLink={x.deployedOrLiveLink}></Card>
        )
         })}
         </main>
