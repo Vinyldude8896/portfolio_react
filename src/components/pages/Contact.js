@@ -13,7 +13,7 @@ const Contact = () => {
   });
 
   const [errorMessage, setErrorMessage] = useState("");
-  const { name, email, message } = formState;
+  // const { name, email, message } = formState;
 
   // function to handle any errors on submit
   const handleSubmit = (e) => {
