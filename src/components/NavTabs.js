@@ -84,10 +84,10 @@ function NavTabs({ currentPage, handlePageChange }) {
                   <a
                     href="#Resume"
                     // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    onClick={() => handlePageChange("Footer")}
+                    onClick={() => handlePageChange("Resume")}
                     // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     className={
-                      currentPage === "Footer"
+                      currentPage === "Resume"
                         ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     }
