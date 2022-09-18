@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
 
-  // function to validate email and check for any empty feilds on blur from field
+  // function to validate email and check for any empty feilds on blur from field and stuff
   const handleChange = (e) => {
     const capitalFieldName = capitalizeFirstLetter(e.target.name);
     if (e.target.name === "email") {
