@@ -38,6 +38,7 @@ Then at the root folder, run npm start and go to:
 http://localhost:3000/#home
 
 You can also view the live page here: <br />
+https://vinyldude8896.github.io/portfolio_react/
 
 
 ### Contribution Guidelines
@@ -52,7 +53,8 @@ To test this app:<br />
 3. from the root folder run npm start <br />
 4. Browser should open to this page: http://localhost:3000/#home <br />
 5. Try nagigation around the site <br />
-6. Test out teh form in the contact Me section <br />
+6. Test out the form in the contact Me section <br />
+7. Also test out the live Github page here: https://vinyldude8896.github.io/portfolio_react/
 
 ### Questions
     email address : kevinnivek@me.com
