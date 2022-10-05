@@ -10,7 +10,7 @@ This page has an animation library used in the navigation bar.
 This page features a project section with modal to see more information about the clicked project.
 This page has a contact form with regex validation for email.
 
-### badges
+### Badges
 ![HTML](https://img.shields.io/badge/HTML-License-blue)
 ![React.js](https://img.shields.io/badge/React.js-License-yellowgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-License-lightblue)
@@ -27,14 +27,11 @@ This page has a contact form with regex validation for email.
 - [Questions](#questions)
 
 ### Installation
-Please clone the github repo here :
+1. Please clone the github repo here :
 https://github.com/Vinyldude8896/portfolio_react
-
-#### Install Dependencies
-Run npm install to install the dependecies.
-
-#### Run the program
-Then at the root folder, run npm start and go to:
+2. Run npm install to install the dependecies.
+3. Then at the root folder, run npm start
+4. In your browser navigate to:
 http://localhost:3000/#home
 
 You can also view the live page here: <br />
@@ -49,7 +46,7 @@ Kevin Reid : https://github.com/Vinyldude8896 <br />
 ### Testing
 To test this app:<br />
 1. Clone the repo here : https://github.com/Vinyldude8896/portfolio_react. <br />
-2. Install depenencies using npm istall. <br />
+2. Install depenencies using npm install. <br />
 3. from the root folder run npm start <br />
 4. Browser should open to this page: http://localhost:3000/#home <br />
 5. Try nagigation around the site <br />
