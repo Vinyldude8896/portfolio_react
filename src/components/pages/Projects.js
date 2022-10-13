@@ -6,6 +6,7 @@ import imageArtistMusicTours from "../../Assets/ProjectPhotos/Artist_music_tours
 import imageWeatherDashboard from "../../Assets/ProjectPhotos/Weather_dashboard.jpeg";
 import imageEmployeeTracker from "../../Assets/ProjectPhotos/Employee_Tracker.png"
 import imageCodingQuiz from "../../Assets/ProjectPhotos/Coding_quiz.png"
+import imageProduct_Paparazzi from "../../Assets/ProjectPhotos/product_paparazzi_4.jpg"
 //
 
 const projectArr = [
@@ -56,12 +57,12 @@ const projectArr = [
   },
   {
     key: 6,
-    src: imageCodingQuiz,
-    title: "Coding quiz aqp that is timed and saves high score",
+    src: imageProduct_Paparazzi,
+    title: "React App for Businesses to track wether their product is on retailer shelves",
     hrefOne: "GitHub",
     hrefTwo: "Live Github Link",
-    GithubLink: "https://github.com/Vinyldude8896/Coding-Quiz",
-    deployedOrLiveLink: "https://vinyldude8896.github.io/Coding-Quiz/",
+    GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",
+    deployedOrLiveLink: "https://productpaparazzi.herokuapp.com/",
   },
 ];
 
