@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.f18fadef.css",
-    "main.js": "/portfolio_react/static/js/main.479820b0.js",
+    "main.js": "/portfolio_react/static/js/main.041a4a2b.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
+    "static/media/product_paparazzi_4.jpg": "/portfolio_react/static/media/product_paparazzi_4.9425217e692c168879e9.jpg",
     "static/media/Weather_dashboard.jpeg": "/portfolio_react/static/media/Weather_dashboard.0a67797093dfcba3a4f1.jpeg",
     "static/media/Running.gif": "/portfolio_react/static/media/Running.989c4512bfe34ade74d4.gif",
     "static/media/Kevin.JPG": "/portfolio_react/static/media/Kevin.6ef6a9008fbc524a7080.JPG",
@@ -21,10 +22,10 @@
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
     "main.f18fadef.css.map": "/portfolio_react/static/css/main.f18fadef.css.map",
-    "main.479820b0.js.map": "/portfolio_react/static/js/main.479820b0.js.map"
+    "main.041a4a2b.js.map": "/portfolio_react/static/js/main.041a4a2b.js.map"
   },
   "entrypoints": [
     "static/css/main.f18fadef.css",
-    "static/js/main.479820b0.js"
+    "static/js/main.041a4a2b.js"
   ]
 }
