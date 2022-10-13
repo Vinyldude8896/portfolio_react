@@ -72,7 +72,7 @@ const Projects = () => {
     <div className="sm:text-center lg:text-left pb-3 z-10">
       <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
         <span className="xl:inline pr-0">Welcome to my </span>
-        <span className="text-indigo-600 xl:inline">Porftolio Section</span>
+        <span className="text-indigo-600 xl:inline">Portfolio Section</span>
       </h1>
     </div>
     <main className="w-full flex flex-wrap mt-2 max-w-10xl  sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14 z-10">
