@@ -60,7 +60,7 @@ const projectArr = [
     src: imageProduct_Paparazzi,
     title: "React App for Businesses to track wether their product is on retailer shelves",
     hrefOne: "GitHub",
-    hrefTwo: "Live Github Link",
+    hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",
     deployedOrLiveLink: "https://productpaparazzi.herokuapp.com/",
   },
