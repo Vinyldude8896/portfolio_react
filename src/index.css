@@ -23,8 +23,8 @@
   margin-bottom: 65px;
   position:relative}
 .block-1{
-  width:100%;
-  height:100%;
+  width:102%;
+  height:108%;
   background-color:#fff;
   border: #111564 solid 5px;
   border-radius:10px;
@@ -33,7 +33,7 @@
   .block-1 img{
     width:130%;
     height:100%;
-    margin-top: -50px;
+    margin-top: -52px;
     border-radius:10px;
     background-position:cover;
     transition:all 0.5s;
