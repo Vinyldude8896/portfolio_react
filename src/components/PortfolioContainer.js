@@ -31,6 +31,9 @@ export default function PortfolioContainer() {
     if (currentPage === "Resume") {
         return <Resume_PDF/>;
       }
+      if (currentPage === "Resume_mobile") {
+        return <Resume/>;
+      }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

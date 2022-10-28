@@ -176,6 +176,19 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
 
             <a
+              href="#Resume"
+              // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              onClick={() => handlePageChange("Resume")}
+              // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className={
+                currentPage === "Resume"
+                  ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md bg-indigo-700 text-sm font-medium"
+                  : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              }
+            >
+              Resume
+            </a>
+            {/* <a
               href="#ContactMe"
               onClick={() => handlePageChange("Contact")}
               // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -186,7 +199,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               }
             >
               Contact Me
-            </a>
+            </a> */}
 
             {/* <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a> */}
           </div>
