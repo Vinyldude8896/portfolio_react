@@ -29,7 +29,8 @@
   border: #111564 solid 5px;
   border-radius:10px;
   position:absolute;
-  z-index:100}
+  z-index:100
+}
   .block-1 img{
     width:130%;
     height:100%;
