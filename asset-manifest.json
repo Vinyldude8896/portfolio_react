@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.8e59e1ff.css",
+    "main.css": "/portfolio_react/static/css/main.cbf4f424.css",
     "main.js": "/portfolio_react/static/js/main.24f4d999.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
@@ -21,11 +21,11 @@
     "static/media/css3.png": "/portfolio_react/static/media/css3.154fc5f7c05edb5a04c1.png",
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
-    "main.8e59e1ff.css.map": "/portfolio_react/static/css/main.8e59e1ff.css.map",
+    "main.cbf4f424.css.map": "/portfolio_react/static/css/main.cbf4f424.css.map",
     "main.24f4d999.js.map": "/portfolio_react/static/js/main.24f4d999.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e59e1ff.css",
+    "static/css/main.cbf4f424.css",
     "static/js/main.24f4d999.js"
   ]
 }
