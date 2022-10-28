@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.ce14d42a.css",
-    "main.js": "/portfolio_react/static/js/main.e15bfa4e.js",
+    "main.css": "/portfolio_react/static/css/main.f18fadef.css",
+    "main.js": "/portfolio_react/static/js/main.300c470c.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
@@ -21,11 +21,11 @@
     "static/media/css3.png": "/portfolio_react/static/media/css3.154fc5f7c05edb5a04c1.png",
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
-    "main.ce14d42a.css.map": "/portfolio_react/static/css/main.ce14d42a.css.map",
-    "main.e15bfa4e.js.map": "/portfolio_react/static/js/main.e15bfa4e.js.map"
+    "main.f18fadef.css.map": "/portfolio_react/static/css/main.f18fadef.css.map",
+    "main.300c470c.js.map": "/portfolio_react/static/js/main.300c470c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce14d42a.css",
-    "static/js/main.e15bfa4e.js"
+    "static/css/main.f18fadef.css",
+    "static/js/main.300c470c.js"
   ]
 }
