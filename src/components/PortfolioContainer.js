@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
 import Footer from "./pages/Footer";
 import Resume from "./pages/Resume";
+import Resume_PDF from "./pages/Resume_PDF";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -28,7 +29,7 @@ export default function PortfolioContainer() {
       return <Skills />;
     }
     if (currentPage === "Resume") {
-        return <Resume/>;
+        return <Resume_PDF/>;
       }
   };
 
