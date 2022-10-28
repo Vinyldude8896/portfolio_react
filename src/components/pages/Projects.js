@@ -13,7 +13,7 @@ const projectArr = [
   {
     key: 1,
     src: imageTechBlog,
-    title: "Blog Style App with secured login",
+    title: "Blog Style App with secured login. Users can create, edit and delete posts, comment on other posts. ",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/The-Tech-Blog",
@@ -22,7 +22,7 @@ const projectArr = [
   {
     key: 2,
     src: imageIbetter,
-    title: "Habit Tracker app with chart progress",
+    title: "Habit Tracker app with secured login. Users add good habits, track daily completion, and see progress for the month.",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/iBetter",
@@ -31,7 +31,7 @@ const projectArr = [
   {
     key: 3,
     src: imageArtistMusicTours,
-    title: "Music Artist search returns concert listings, discography and videos",
+    title: "Music Artist search will return discography, concert listings and youtube videos making API Calls.",
     hrefOne: "GitHub",
     hrefTwo: "Live Github Link",
     GithubLink: "https://github.com/Vinyldude8896/Artist_Music_Tour",
@@ -40,7 +40,7 @@ const projectArr = [
   {
     key: 4,
     src: imageWeatherDashboard,
-    title: "Weather forecast app that calls API for city searched data",
+    title: "Weather forecast app that calls API for city searched data. Displays temperature, wind speed, humidity, conditions. ",
     hrefOne: "GitHub",
     hrefTwo: "Live Github Link",
     GithubLink: "https://github.com/Vinyldude8896/Weather-Dashboard",
@@ -49,7 +49,7 @@ const projectArr = [
   {
     key: 5,
     src: imageEmployeeTracker,
-    title: "Command line app to organize and maintain departments, managers and employees",
+    title: "Command line app using input from user to organize and maintain departments, managers and employees.",
     hrefOne: "GitHub",
     hrefTwo: "Video Demo",
     GithubLink: "https://github.com/Vinyldude8896/Employee-Tracker",
@@ -58,7 +58,7 @@ const projectArr = [
   {
     key: 6,
     src: imageProduct_Paparazzi,
-    title: "React App for Businesses to track wether their product is on retailer shelves",
+    title: "  App for businesses tracking their product on retailers shelves. Customers upload photos showing product, receive incentives.",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",
