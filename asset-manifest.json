@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.f18fadef.css",
-    "main.js": "/portfolio_react/static/js/main.9191f856.js",
+    "main.js": "/portfolio_react/static/js/main.c758d04e.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
@@ -9,9 +9,9 @@
     "static/media/Weather_dashboard.jpeg": "/portfolio_react/static/media/Weather_dashboard.0a67797093dfcba3a4f1.jpeg",
     "static/media/Running.gif": "/portfolio_react/static/media/Running.989c4512bfe34ade74d4.gif",
     "static/media/Kevin.JPG": "/portfolio_react/static/media/Kevin.6ef6a9008fbc524a7080.JPG",
-    "static/media/Kevin_Reid_Resume_Development.pdf": "/portfolio_react/static/media/Kevin_Reid_Resume_Development.fe31ad8849a2324a80c0.pdf",
     "static/media/tech_blog.png": "/portfolio_react/static/media/tech_blog.fd5be1dd2dae18506703.png",
     "static/media/Employee_Tracker.png": "/portfolio_react/static/media/Employee_Tracker.170d797d1e76cd94b37f.png",
+    "static/media/Kevin_Reid_Resume_Development.pdf": "/portfolio_react/static/media/Kevin_Reid_Resume_Development.306244385382d7d11cad.pdf",
     "static/media/Coding_quiz.png": "/portfolio_react/static/media/Coding_quiz.c42908d4e22543cfd588.png",
     "static/media/react.png": "/portfolio_react/static/media/react.236e02a25e48dfbd528d.png",
     "static/media/sequelize.png": "/portfolio_react/static/media/sequelize.a8fb959d690cd6d7bc79.png",
@@ -22,10 +22,10 @@
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
     "main.f18fadef.css.map": "/portfolio_react/static/css/main.f18fadef.css.map",
-    "main.9191f856.js.map": "/portfolio_react/static/js/main.9191f856.js.map"
+    "main.c758d04e.js.map": "/portfolio_react/static/js/main.c758d04e.js.map"
   },
   "entrypoints": [
     "static/css/main.f18fadef.css",
-    "static/js/main.9191f856.js"
+    "static/js/main.c758d04e.js"
   ]
 }
