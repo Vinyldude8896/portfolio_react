@@ -122,8 +122,8 @@ const Skills = () => {
     >
       <div className=" sm:text-center lg:text-left pb-3">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-          <span className="xl:inline pr-0">Welcome to my </span>
-          <span className="text-indigo-600 xl:inline">Skills Section</span>
+          {/* <span className="xl:inline pr-0">Welcome to my </span> */}
+          <span className="text-indigo-600 xl:inline">Here are some of my current skills</span>
         </h1>
       </div>
       <div className="w-full grid grid-cols-4 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
