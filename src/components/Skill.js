@@ -2,8 +2,8 @@ import React from "react";
 
 export function Skill(props) {
   return (
-    <div className="shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
-    <h1 className="font-light tracking-tight text-gray-900 sm:text-4xl md:text-5xl">{props.h1Text}</h1>
+    <div className="skillBox shadow-md hover:shadow-lg duration-500 py-2 rounded-lg shadow-indigo-500 relative overflow-hidden bg-no-repeat bg-cover max-w-xs">
+    <h1 className="skillText font-light tracking-tight text-gray-900 sm:text-2xl md:text-2xl">{props.h1Text}</h1>
       <img
        src={props.src}
         className="w-20 mx-auto"
