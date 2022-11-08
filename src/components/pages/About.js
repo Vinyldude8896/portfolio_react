@@ -60,7 +60,7 @@ const About = () => {
                       </div> */}
                     </div>
                   </div>
-                  {/* <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+                  <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                   <a
                       href="https://github.com/Vinyldude8896" target="_blank" 
                       className="font-medium text-indigo-600 hover:text-gray-900"
@@ -85,13 +85,13 @@ const About = () => {
                     >
                       E-mail
                     </a>
-                    <a
+                    {/* <a
                       href="#"
                       class="font-medium text-indigo-600 hover:text-indigo-500"
                     >
                       Log in
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
                 </nav>
               </div>
 
@@ -104,8 +104,8 @@ const About = () => {
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         --> */}
-              <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
-                <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
+              {/* <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"> */}
+                {/* <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5"> */}
                   {/* <div className="flex items-center justify-between px-5 pt-4"> */}
                     {/* <div>
                       <img
@@ -139,7 +139,7 @@ const About = () => {
                       </button>
                     </div> */}
                   {/* </div> */}
-                  {/*<div className="space-y-1 px-2 pt-2 pb-3">
+                  <div className="space-y-1 px-2 pt-2 pb-3">
                      <a
                       href="#Github"
                       className="block rounded-md px-3 py-2 font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
@@ -168,15 +168,15 @@ const About = () => {
                     >
                       Resume
                     </a> 
-                  </div> */}
+                  </div>
                   {/* <a
                     href="#"
                     class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
                   >
                     Log in
                   </a> */}
-                </div>
-              </div>
+                {/* </div> */}
+              {/* </div> */}
             </div>
 
             <main className="mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">

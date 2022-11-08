@@ -33,14 +33,13 @@ const Home = () => {
                           src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                         ></img>
                       </a> */}
-                      <div className="-mr-2 flex items-center md:hidden">
+                      {/* <div className="-mr-2 flex items-center md:hidden">
                         <button
                           type="button"
                           className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                           aria-expanded="false"
                         >
                           <span className="sr-only">Open main menu</span>
-                          {/* <!-- Heroicon name: outline/bars-3 --> */}
                           <svg
                             className="h-6 w-6"
                             xmlns="http://www.w3.org/2000/svg"
@@ -57,33 +56,33 @@ const Home = () => {
                             />
                           </svg>
                         </button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
-                  <div className="sm:hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+                  <div className="sm:hidden md:ml-10  mb-2 md:block md:space-x-8 md:pr-4">
                   <a
                       href="https://github.com/Vinyldude8896" target="_blank" 
-                      className="font-medium text-indigo-600 hover:text-gray-900"
+                      className="font-small pr-2 text-indigo-600 hover:text-gray-900"
                     >
                       GitHub
                     </a>
 
                     <a
                       href="https://www.linkedin.com/in/kevinreidkr" target="_blank" 
-                      className="font-medium text-indigo-600 hover:text-indigo-600"
+                      className="font-small pr-2 text-indigo-600 hover:text-indigo-600"
                     >
                       LinkedIn
                     </a>
                     <a
                       href="https://docs.google.com/document/d/1efYGed8JSc1yse8Gx0UbxpSvFESqX_M7/edit" target="_blank" 
-                      className="font-medium text-indigo-600 hover:text-indigo-600"
+                      className="font-small pr-2 text-indigo-600 hover:text-indigo-600"
                     >
                       Resume
                     </a>
 
                     <a
                       href="mailto: kevinnivek@me.com"
-                      className="font-medium text-indigo-600 hover:text-gray-900"
+                      className="font-small pr-2 text-indigo-600 hover:text-gray-900"
                     >
                       E-mail
                     </a>
@@ -110,21 +109,20 @@ const Home = () => {
         --> */}
               <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
                 <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
-                  <div className="flex items-center justify-between px-5 pt-4">
-                    {/* <div>
+                   {/*<div className="flex items-center justify-between px-5 pt-4">
+                    <div>
                       <img
                         className="h-8 w-auto"
                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                         alt=""
                       ></img>
                     </div> */}
-                    <div className="-mr-2">
+                    {/* <div className="-mr-2">
                       <button
                         type="button"
                         className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                       >
                         <span className="sr-only">Close main menu</span>
-                        {/* <!-- Heroicon name: outline/x-mark --> */}
                         <svg
                           className="h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
@@ -141,8 +139,8 @@ const Home = () => {
                           />
                         </svg>
                       </button>
-                    </div>
-                  </div>
+                    </div> 
+                  </div>*/}
                   {/* <div className="sm:hidden space-y-1 px-2 pt-2 pb-3"> */}
                     {/* <a
                       href="#Github"
@@ -189,15 +187,16 @@ const Home = () => {
             <main className="mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-                  <span className="xl:inline pr-8">Kevin Reid </span>{" "}
+                  <span className="xl:inline pl-3 pr-8">Kevin Reid </span>{" "}
                   <br></br>
-                  <span className="text-indigo-600 xl:inline"> Full Stack</span>
-                  <span className="text-indigo-600 xl:inline">
+                  <span className="text-indigo-600 pl-3 xl:inline"> Full Stack</span>
+                  <br></br>
+                  <span className="text-indigo-600 pl-3  xl:inline">
                     {" "}
                     Web Developer{" "}
                   </span>
                 </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 pl-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                   I find programming to be challenging, but greatly rewarding. I
                   love the creativity of building our own front and back end
                   apps from the ground up. I really enjoy the problem solving
@@ -207,7 +206,7 @@ const Home = () => {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <img
-                    className="h-55 w-2/3 "
+                    className="h-55 pl-3 w-2/3 "
                     src={require("../../Assets/Images/FullStackWebDevelopment.png")}
                     alt=""
                   ></img>
