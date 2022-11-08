@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.036aa999.css",
-    "main.js": "/portfolio_react/static/js/main.3a509fdd.js",
+    "main.css": "/portfolio_react/static/css/main.0ac84108.css",
+    "main.js": "/portfolio_react/static/js/main.116133c6.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
@@ -18,14 +18,15 @@
     "static/media/node-js.png": "/portfolio_react/static/media/node-js.f2efea7a4b7f4596d931.png",
     "static/media/jquery.png": "/portfolio_react/static/media/jquery.82559b3bcbc55995b3b3.png",
     "static/media/mysql.png": "/portfolio_react/static/media/mysql.3c89091c69c068669783.png",
+    "static/media/github.png": "/portfolio_react/static/media/github.486a2a22b33a9b3fb568.png",
     "static/media/css3.png": "/portfolio_react/static/media/css3.154fc5f7c05edb5a04c1.png",
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
-    "main.036aa999.css.map": "/portfolio_react/static/css/main.036aa999.css.map",
-    "main.3a509fdd.js.map": "/portfolio_react/static/js/main.3a509fdd.js.map"
+    "main.0ac84108.css.map": "/portfolio_react/static/css/main.0ac84108.css.map",
+    "main.116133c6.js.map": "/portfolio_react/static/js/main.116133c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.036aa999.css",
-    "static/js/main.3a509fdd.js"
+    "static/css/main.0ac84108.css",
+    "static/js/main.116133c6.js"
   ]
 }
