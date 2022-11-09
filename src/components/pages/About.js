@@ -63,7 +63,7 @@ const About = () => {
                   <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                   <a
                       href="https://github.com/Vinyldude8896" target="_blank" 
-                      className="font-medium text-indigo-600 hover:text-gray-900"
+                      className="font-large text-indigo-600 hover:text-gray-900"
                     >
                       GitHub
                     </a>
@@ -139,7 +139,7 @@ const About = () => {
                       </button>
                     </div> */}
                   {/* </div> */}
-                  <div className="space-y-1 px-2 pt-2 pb-3">
+                  <div className="aboutSubmenu space-y-1 px-2 pt-2 pb-3">
                      <a
                       href="#Github"
                       className="block rounded-md px-3 py-2 font-bold text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"

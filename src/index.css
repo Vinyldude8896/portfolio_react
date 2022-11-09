@@ -10,6 +10,33 @@
     }
 } */
 
+body {
+  font-family: 'Montserrat';
+}
+
+.aboutSubmenu {
+  font-size: 35px;
+}
+
+.projectsContainer {
+  background-image: url('./Assets/Images/background03.jpeg');
+}
+.skillsContainer {
+  background-image: url('./Assets/Images/background03.jpeg');
+}
+.projectsHeader {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.skillBox {
+ background-color: antiquewhite;
+}
+
+.skillTitle {
+  color: lightgray;
+  font-size: 30px;
+}
 
 .contactBody { 
   padding: 2rem 0;
@@ -20,13 +47,13 @@
   height:300px;
   width:360px;
   margin-right: 55px;
-  margin-bottom: 65px;
+  margin-bottom: 100px;
   position:relative}
 .block-1{
   width:102%;
   height:108%;
   background-color:#fff;
-  border: #111564 solid 5px;
+  border: #111564 solid 3px;
   border-radius:10px;
   position:absolute;
   z-index:100
@@ -36,6 +63,7 @@
     height:100%;
     margin-top: -52px;
     margin-left: 5px;
+    margin-bottom: 5px;
     border-radius:10px;
     background-position:cover;
     transition:all 0.5s;
@@ -134,6 +162,16 @@
       .skillTitle{
         font-size: 15px;
       }
+
+      .block{
+        align-items: center;
+        margin-left: 30px;
+      }
+      .projectsHeader {
+        color: lightgray;
+        font-size: 30px;
+      }
+
     }
 
     @media only screen and (max-width: 900px) {
@@ -155,5 +193,16 @@
       }
       .skillTitle{
         font-size: 20px;
+      }
+      .block{
+        align-items: center;
+        margin-left: 50px;
+      }
+      .projectsContainer {
+        justify-content: center;
+      }
+      .projectsHeader {
+        color: lightgray;
+        font-size: 30px;
       }
     }

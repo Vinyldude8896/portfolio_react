@@ -118,7 +118,7 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="mx-auto mt-10 max-w-12xl px-4 sm:mt-12 sm:px-6 md:mt-12 lg:mt-14 lg:px-8 xl:mt-14"
+      className="skillsContainer mx-auto max-w-12xl px-4"
     >
       <div className=" sm:text-center lg:text-left pb-3">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">

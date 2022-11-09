@@ -20,7 +20,7 @@ export function Card(props) {
           {props.hrefTwo}
         </a>
         </h1>
-        <p className="font-small text-grey-300 mb-2 border-b-2 border-black-300 hover:text-grey-400">
+        <p className="font-small text-grey-300 mb-1 border-b-2 border-black-300 hover:text-grey-400">
           {props.title}
         </p>
         <img

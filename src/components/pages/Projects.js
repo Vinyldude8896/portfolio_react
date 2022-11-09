@@ -68,14 +68,14 @@ const projectArr = [
 
 const Projects = () => {
   return (
-    <section className="mx-auto mt-10 max-w-12xl px-4 sm:mt-12 sm:px-6 md:mt-12 lg:mt-14 lg:px-8 xl:mt-14">
+    <section className=" projectsContainer mx-auto max-w-12xl px-4 ">
     <div className="sm:text-center lg:text-left pb-3 z-10">
-      <h1 className="text-center text-large mb-2 font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+      <h1 className="text-center text-medium mb-4 pt-2 font-bold tracking-tight text-gray-900 sm:text-medium md:text-3xl">
         {/* <span className="xl:inline pr-0">Welcome to my </span> */}
-        <span className="text-indigo-600 xl:inline">Here are some projects I worked on</span>
+        <span className=" projectsHeader">Here are some projects I worked on</span>
       </h1>
     </div>
-    <main className="w-full flex flex-wrap mt-2 max-w-10xl  sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14 z-10">
+    <main className="w-full projectsContainer flex flex-wrap mt-1 max-w-10xl items-center sm:mt-12 sm:px-6 md:mt-16 lg:mt-14 lg:px-8 xl:mt-14 z-10">
     
         {projectArr.map(x =>{
        return (
