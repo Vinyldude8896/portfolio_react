@@ -22,7 +22,7 @@ const projectArr = [
   {
     key: 2,
     src: imageIbetter,
-    title: "Habit Tracker app with secured login. Users add good habits, track daily completion, and see progress for the month.",
+    title: "Habit Tracker app with secured login. Users add good habits, track daily completion, and see monthly progress.",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/iBetter",
