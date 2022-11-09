@@ -58,7 +58,7 @@ const projectArr = [
   {
     key: 6,
     src: imageProduct_Paparazzi,
-    title: "  App for businesses tracking their product on retailers shelves. Customers upload photos showing product, receive incentives.",
+    title: "  App for businesses tracking products on retailers shelves. Customers upload photos showing product, receive incentives.",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
     GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",

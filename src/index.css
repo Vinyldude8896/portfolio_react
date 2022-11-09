@@ -24,6 +24,9 @@ body {
 .skillsContainer {
   background-image: url('./Assets/Images/background03.jpeg');
 }
+.resumeContainer {
+  background-image: url('./Assets/Images/background03.jpeg');
+}
 .projectsHeader {
   color: lightgray;
   font-size: 30px;
@@ -37,7 +40,10 @@ body {
   color: lightgray;
   font-size: 30px;
 }
-
+.resumeHeader {
+  color: lightgray;
+  font-size: 30px;
+}
 .contactBody { 
   padding: 2rem 0;
  }
