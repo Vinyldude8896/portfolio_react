@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.fc91be23.css",
-    "main.js": "/portfolio_react/static/js/main.fdb0c106.js",
+    "main.js": "/portfolio_react/static/js/main.b4292c2c.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
@@ -24,10 +24,10 @@
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
     "main.fc91be23.css.map": "/portfolio_react/static/css/main.fc91be23.css.map",
-    "main.fdb0c106.js.map": "/portfolio_react/static/js/main.fdb0c106.js.map"
+    "main.b4292c2c.js.map": "/portfolio_react/static/js/main.b4292c2c.js.map"
   },
   "entrypoints": [
     "static/css/main.fc91be23.css",
-    "static/js/main.fdb0c106.js"
+    "static/js/main.b4292c2c.js"
   ]
 }
