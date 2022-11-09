@@ -41,7 +41,7 @@ body {
   font-size: 30px;
 }
 .resumeHeader {
-  color: darkgrey;
+  color: grey;
   font-size: 30px;
 }
 .contactBody { 
@@ -58,7 +58,7 @@ body {
 .block-1{
   width:102%;
   height:108%;
-  background-color:#fff;
+  background-color: antiquewhite;
   border: #111564 solid 3px;
   border-radius:10px;
   position:absolute;
@@ -178,6 +178,10 @@ body {
         font-size: 30px;
       }
 
+    }
+
+    .footer {
+      background-color: white;
     }
 
     @media only screen and (max-width: 900px) {
