@@ -107,6 +107,17 @@ function NavTabs({ currentPage, handlePageChange }) {
                   >
                     Contact
                   </a>
+                  <a
+                    href="#Thank_You"
+                    onClick={() => handlePageChange("Thank_You")}
+                    // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className={
+                      currentPage === "Thank_You"
+                        ? "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md bg-indigo-700 text-sm font-medium"
+                        : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    }
+                  >
+                  </a>
                 </div>
               </div>
               {/* <!-- Profile dropdown --> */}
