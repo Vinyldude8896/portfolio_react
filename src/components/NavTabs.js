@@ -105,7 +105,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                         : "nav-link active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     }
                   >
-                    {/* Contact */}
+                    Contact
                   </a>
                 </div>
               </div>
@@ -175,7 +175,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Skills
             </a>
 
-            <a
+            {/* <a
               href="#Resume"
               // className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => handlePageChange("Resume")}
@@ -187,8 +187,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               }
             >
               Resume
-            </a>
-            {/* <a
+            </a> */}
+            <a
               href="#ContactMe"
               onClick={() => handlePageChange("Contact")}
               // class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -199,7 +199,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               }
             >
               Contact Me
-            </a> */}
+            </a>
 
             {/* <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a> */}
           </div>

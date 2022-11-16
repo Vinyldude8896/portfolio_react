@@ -23,27 +23,6 @@ const Contact = () => {
       console.log("Form", formState);
     }
   };
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   fetch('http://localhost:3002/send', {
-  //       method: "POST",
-  //       body: JSON.stringify(this.state),
-  //       headers: {
-  //         'Accept': 'application/json',
-  //         'Content-Type': 'application/json'
-  //       },
-  //     }).then(
-  //     (response) => (response.json())
-  //       ).then((response)=> {
-  //     if (response.status === 'success') {
-  //       alert("Message Sent.");
-  //       this.resetForm()
-  //     } else if(response.status === 'fail') {
-  //       alert("Message failed to send.")
-  //     }
-  //   })
-  // }
-// };
 
   // function to validate email and check for any empty feilds on blur from field and stuff
   const handleChange = (e) => {
@@ -65,21 +44,21 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full bg-white dark:bg-gray-900">
+    <section className=" projectsContainer w-full bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
-          Contact Me
+          Let's talk, contact me here
         </h2>
         <form
-          action="#"
+          method="POST" action="https://formsubmit.co/kevinnivek@me.com" enctype="multipart/form-data"
           className="space-y-8"
           id="contact-form"
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
         >
           <div>
             <label
               htmlFor="Name"
-              className=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className=" mb-2 text-sm font-medium text-light-900 dark:text-gray-300"
             >
               Your Name
             </label>

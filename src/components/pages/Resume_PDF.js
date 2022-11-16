@@ -19,7 +19,7 @@ const Resume_PDF = () => {
         type="application/pdf"
         aria-label="resume"
         // scrollbar="1|0"
-        // view="Fit"
+        view="Fit"
       />
     </section>
   );
