@@ -7,17 +7,17 @@ import imageWeatherDashboard from "../../Assets/ProjectPhotos/Weather_dashboard.
 import imageEmployeeTracker from "../../Assets/ProjectPhotos/Employee_Tracker.png"
 import imageCodingQuiz from "../../Assets/ProjectPhotos/Coding_quiz.png"
 import imageProduct_Paparazzi from "../../Assets/ProjectPhotos/product_paparazzi_4.jpg"
-//
+import blog_pagination from "../../Assets/ProjectPhotos/blog_pagination.png"
 
 const projectArr = [
   {
     key: 1,
-    src: imageTechBlog,
-    title: "Blog Style App with secured login. Users can create, edit and delete posts, comment on other posts. ",
+    src: blog_pagination,
+    title: "Pagination created for blog site, included posts per page selectors.  ",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
-    GithubLink: "https://github.com/Vinyldude8896/The-Tech-Blog",
-    deployedOrLiveLink: "https://immense-cliffs-94479.herokuapp.com/",
+    GithubLink: "https://github.com/Vinyldude8896/Blog_Pagination",
+    deployedOrLiveLink: "https://blogpagination.herokuapp.com",
   },
   {
     key: 2,
@@ -55,14 +55,23 @@ const projectArr = [
     GithubLink: "https://github.com/Vinyldude8896/Employee-Tracker",
     deployedOrLiveLink: "https://drive.google.com/file/d/1ziSfSc_Dury25gX0I-vqKOJPjDzP50Ao/view",
   },
+  // {
+  //   key: 6,
+  //   src: imageProduct_Paparazzi,
+  //   title: "  App for businesses tracking products on retailers shelves. Customers upload photos showing product, receive incentives.",
+  //   hrefOne: "GitHub",
+  //   hrefTwo: "Deployed App",
+  //   GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",
+  //   deployedOrLiveLink: "https://productpaparazzi.herokuapp.com/",
+  // },
   {
     key: 6,
-    src: imageProduct_Paparazzi,
-    title: "  App for businesses tracking products on retailers shelves. Customers upload photos showing product, receive incentives.",
+    src: imageTechBlog,
+    title: "Blog Style App with secured login. Users can create, edit and delete posts, comment on other posts. ",
     hrefOne: "GitHub",
     hrefTwo: "Deployed App",
-    GithubLink: "https://github.com/Vinyldude8896/product_paparazzi",
-    deployedOrLiveLink: "https://productpaparazzi.herokuapp.com/",
+    GithubLink: "https://github.com/Vinyldude8896/The-Tech-Blog",
+    deployedOrLiveLink: "https://immense-cliffs-94479.herokuapp.com/",
   },
 ];
 
