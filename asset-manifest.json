@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.a2ef9ce5.css",
-    "main.js": "/portfolio_react/static/js/main.3248962b.js",
+    "main.js": "/portfolio_react/static/js/main.27fdeeb2.js",
     "static/media/Artist_music_tours_1.jpeg": "/portfolio_react/static/media/Artist_music_tours_1.4dd2fb42f264769e22e2.jpeg",
     "static/media/Kevin_4.JPG": "/portfolio_react/static/media/Kevin_4.e17fbd2cfb7a8927c49b.JPG",
     "static/media/IBetter.png": "/portfolio_react/static/media/IBetter.77b91a7b1af4840d7558.png",
@@ -12,6 +12,7 @@
     "static/media/tech_blog.png": "/portfolio_react/static/media/tech_blog.fd5be1dd2dae18506703.png",
     "static/media/Employee_Tracker.png": "/portfolio_react/static/media/Employee_Tracker.170d797d1e76cd94b37f.png",
     "static/media/background03.jpeg": "/portfolio_react/static/media/background03.3d04eaad17bf59cbe938.jpeg",
+    "static/media/blog_pagination.png": "/portfolio_react/static/media/blog_pagination.8e7713585050c83b5889.png",
     "static/media/Kevin_Reid_Resume_Development.pdf": "/portfolio_react/static/media/Kevin_Reid_Resume_Development.306244385382d7d11cad.pdf",
     "static/media/Coding_quiz.png": "/portfolio_react/static/media/Coding_quiz.c42908d4e22543cfd588.png",
     "static/media/react.png": "/portfolio_react/static/media/react.236e02a25e48dfbd528d.png",
@@ -24,10 +25,10 @@
     "static/media/mongodb.png": "/portfolio_react/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "index.html": "/portfolio_react/index.html",
     "main.a2ef9ce5.css.map": "/portfolio_react/static/css/main.a2ef9ce5.css.map",
-    "main.3248962b.js.map": "/portfolio_react/static/js/main.3248962b.js.map"
+    "main.27fdeeb2.js.map": "/portfolio_react/static/js/main.27fdeeb2.js.map"
   },
   "entrypoints": [
     "static/css/main.a2ef9ce5.css",
-    "static/js/main.3248962b.js"
+    "static/js/main.27fdeeb2.js"
   ]
 }
