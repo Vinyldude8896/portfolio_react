@@ -43,7 +43,7 @@ const About = () => {
                     </a>
                     <a
                       href="https://docs.google.com/document/d/1srngyW9U_5NCMyunlWPw1QzV6TTfHFmWZ9B6iGlGvpU/edit?usp=sharing"
-        
+                      //
                       target="_blank"
                       className="font-medium text-indigo-600 hover:text-indigo-600"
                     >
